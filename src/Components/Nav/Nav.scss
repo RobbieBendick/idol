@@ -1,0 +1,19 @@
+$color-white: #fff;
+.navbar-light .navbar-nav .nav-link {
+  color: $color-white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: $color-white;
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.fas.fa-car {
+  color: #fff;
+  &:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
